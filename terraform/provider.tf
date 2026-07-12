@@ -21,7 +21,6 @@ terraform {
     region         = "eu-central-1"
     dynamodb_table = "openproject-odoo-tflock"
     encrypt        = true
-    profile        = "default"
   }
 }
 

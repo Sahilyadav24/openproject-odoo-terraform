@@ -43,3 +43,9 @@ variable "public_key_path" {
   type        = string
   default     = "./terraform-key.pub"
 }
+
+variable "public_key_content" {
+  description = "SSH public key content (used in CI where no local file exists)"
+  type        = string
+  default     = ""
+}

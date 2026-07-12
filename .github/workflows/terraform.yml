@@ -25,6 +25,7 @@ jobs:
     env:
       TF_VAR_your_ip: ${{ secrets.TF_VAR_YOUR_IP }}
       TF_VAR_alert_email: ${{ secrets.TF_VAR_ALERT_EMAIL }}
+      TF_VAR_public_key_content: ${{ secrets.TF_VAR_PUBLIC_KEY_CONTENT }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -77,6 +78,7 @@ jobs:
     env:
       TF_VAR_your_ip: ${{ secrets.TF_VAR_YOUR_IP }}
       TF_VAR_alert_email: ${{ secrets.TF_VAR_ALERT_EMAIL }}
+      TF_VAR_public_key_content: ${{ secrets.TF_VAR_PUBLIC_KEY_CONTENT }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

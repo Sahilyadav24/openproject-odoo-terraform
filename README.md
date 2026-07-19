@@ -92,7 +92,7 @@ openproject-odoo-project/
 | \`instance_type\` | EC2 instance size | \`t3.micro\` |
 | \`db_instance_class\` | RDS instance size | \`db.t4g.micro\` |
 | \`your_ip\` | IP allowed to SSH | \`x.x.x.x/32\` |
-| \`alert_email\` | CloudWatch/Budget alert recipient | \`you@example.com\` |
+| \`alert_email\` | CloudWatch/Budget alert recipient | \`sahilrao2424.com\` |
 | \`key_pair_name\` | SSH key pair name | \`terraform-key\` |
 | \`public_key_path\` | Path to SSH public key | \`./terraform-key.pub\` |
 
